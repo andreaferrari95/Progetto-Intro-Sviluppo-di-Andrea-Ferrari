@@ -1,6 +1,10 @@
-@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+@import url("<https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css>");
+:root {
+  --font-stack: Helvetica, sans-serif;
+}
+
 * {
-  font-family: helvetica, sans-serif;
+  font-family: var(--font-stack);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,4 +16,8 @@ body {
 
 .social {
   color: #fff;
+}
+
+.text-under-wheel {
+  font-size: 3vw;
 }

@@ -1,19 +1,19 @@
-$font-stack:    helvetica, sans-serif;
-@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
-
-
-
+:root {
+	--font-stack: Helvetica, sans-serif;
+}
+@import url('<https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css>');
 * {
-    font-family: $font-stack;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	font-family: var(--font-stack);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 body {
-    background-color: rgb(248, 255, 254);
+	background-color: rgb(248, 255, 254);
 }
-
 .social {
-    color: #fff;
+	color: #fff;
+}
+.text-under-wheel {
+    font-size: 3vw;
 }
